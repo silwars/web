@@ -1,0 +1,56 @@
+body {
+	margin: 0 auto;
+	font-family: 'Architects Daughter', cursive;	
+}
+
+.footer{
+	width: auto;
+	height:	50px;
+	background: rgb(39, 40, 53);
+	color: white;
+    padding: 20px;	
+	bottom: 0; left: 0; right: 0;
+
+}
+.header{
+	display: block;
+	height:	120px;
+	color: 	white;
+	background: rgb(39, 40, 53);
+
+	
+}
+.header #nav{
+	text-align: left;
+	margin-left: 110px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+
+}
+
+.header img{
+	width: 160px;
+	height: 100px;
+	float: 	left;
+}
+
+.content{
+	text-align: center;
+}
+
+.content p{
+	text-align: justify;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.content ul{
+	text-align: left;
+}
+
+#nav a{
+	color: white;
+}
+
+
