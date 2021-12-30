@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap" rel="stylesheet">
+	<meta charset="utf-8">	
+	<title> WEB формы</title>
+</head>
+<body>
+	<section>
+		<h1> Форма обратной связи </h1>
+		<hr>	
+		<form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">	
+			<p>	ФИО </p>
+			<input type="text" name="fio" placeholder="Иванов Иван Иванович">
+			<p>	Email </p>
+			<input type="text" name="mail" placeholder="your@mail.ru">
+			<p>	Откуда узнали о нас  </p>
+			 От друга <input type="radio" name="s" value=""> ,<br>	
+			 Из рекламы <input type="radio" name="s" value=""> <br>	
+			 Случайно наткнулся  <input type="radio" name="s" value=""> <br>
+			 <p> Тип обращения </p>
+			 <select name="choose">
+			 	<option value="r1"> Жалоба </option>
+			 	<option value="r2"> Предложение  </option>
+			 </select>
+			 <p>Текст обращения</p>
+			 <textarea name="text" cols="56" rows="10" placeholder="Текст сообщения"></textarea>
+			 <p> Вложение </p>
+				<input type="file"> <br>
+			 <br>
+			 Даю согласие на обработку персональных данных <input type="checkbox" name="sogl" required>
+			 <br>
+			 <br>
+			 <input type="submit" name="Отправить" id="sub">
+			 <input type="reset" name="Сбросить" id="res">
+			 
+		</form>	
+	</section>
+
+</body>
+</html>
